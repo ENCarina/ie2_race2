@@ -11,7 +11,6 @@
 <?import javafx.scene.control.ToggleGroup?>
 <?import javafx.scene.layout.Pane?>
 
-
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Label layoutX="88.0" layoutY="24.0" text="Nevezés" />
@@ -19,7 +18,7 @@
       <Label layoutX="14.0" layoutY="102.0" text="Név" />
       <Label layoutX="14.0" layoutY="146.0" text="Születés" />
       <Label layoutX="74.0" layoutY="183.0" text="Kategória" />
-      <TextField layoutX="57.0" layoutY="63.0" />
+      <TextField disable="true" layoutX="57.0" layoutY="63.0" />
       <TextField layoutX="57.0" layoutY="98.0" />
       <DatePicker layoutX="57.0" layoutY="142.0" prefHeight="25.0" prefWidth="149.0" />
       <RadioButton id="junior" layoutX="59.0" layoutY="218.0" mnemonicParsing="false" selected="true" text="18 alatt">
@@ -33,7 +32,7 @@
       <Button layoutX="89.0" layoutY="327.0" mnemonicParsing="false" text="Módosít" />
       <Button layoutX="158.0" layoutY="327.0" mnemonicParsing="false" text="Töröl" />
       <Button layoutX="77.0" layoutY="364.0" mnemonicParsing="false" text="Névjegy" />
-      <TableView layoutX="216.0" layoutY="15.0" prefHeight="374.0" prefWidth="373.0">
+      <TableView fx:id="racerTable" layoutX="216.0" layoutY="15.0" prefHeight="374.0" prefWidth="373.0">
         <columns>
           <TableColumn prefWidth="43.0" text="Id" />
           <TableColumn prefWidth="107.0" text="Név" />
