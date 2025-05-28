@@ -1,3 +1,3 @@
-#Race
+# Race
 
-Feladat 1013 - Versenyre való nevezésre 
+Feladat 1013 - Versenyre való nevezésre lehetőség
